@@ -123,8 +123,8 @@ class Game(object):
 
     def addition(self):
         """ These will set num1,num2,result for addition """
-        a = random.randint(0,100)
-        b = random.randint(0,100)
+        a = random.randint(0,12)
+        b = random.randint(0,10)
         self.problem["num1"] = a
         self.problem["num2"] = b
         self.problem["result"] = a + b
@@ -132,8 +132,8 @@ class Game(object):
 
     def subtraction(self):
         """ These will set num1,num2,result for subtraction """
-        a = random.randint(0,100)
-        b = random.randint(0,100)
+        a = random.randint(0,12)
+        b = random.randint(0,10)
         if a > b:
             self.problem["num1"] = a
             self.problem["num2"] = b
